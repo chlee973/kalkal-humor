@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>어서오세요</h1>
+<p>깔깔유머 사이트의 홈 화면이다.</p>
