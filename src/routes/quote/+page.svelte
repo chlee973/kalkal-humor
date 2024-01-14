@@ -2,49 +2,44 @@
 	export let data;
 </script>
 
-<div class="container">
-	<h3>명언 게시판</h3>
-	<table>
-		<thead>
+<h3>명언 게시판</h3>
+<table>
+	<thead>
+		<tr>
+			<th>제목</th>
+			<th>작성자</th>
+			<th>추천 수 </th>
+			<th>날짜</th>
+		</tr>
+	</thead>
+	<tbody>
+		{#each data.posts as post}
 			<tr>
-				<th>제목</th>
-				<th>작성자</th>
-				<th>추천 수 </th>
-				<th>날짜</th>
+				<td class="title">
+					<span>
+						<a href="/quote/detail/{post.id}">
+							<span>
+								{post.title}
+							</span>
+							<span class="comment_count"> [{post.comment_count}] </span>
+						</a>
+					</span>
+				</td>
+				<td class="nickname">
+					<span>{post.nickname}</span>
+				</td>
+				<td class="upvote_count">
+					<span>{post.upvote_count}</span>
+				</td>
+				<td class="created_at">
+					<span>{post.created_at.toISOString().split('T')[0].replaceAll('-', '.')}</span>
+				</td>
 			</tr>
-		</thead>
-		<tbody>
-			{#each data.posts as post}
-				<tr>
-					<td class="title">
-						<span>
-							<a href="/quote/detail/{post.id}">
-								<span>
-									{post.title}
-								</span>
-								<span class="comment_count"> [{post.comment_count}] </span>
-							</a>
-						</span>
-					</td>
-					<td class="nickname">
-						<span>{post.nickname}</span>
-					</td>
-					<td class="upvote_count">
-						<span>{post.upvote_count}</span>
-					</td>
-					<td class="created_at">
-						<span>{post.created_at.toISOString().split('T')[0].replaceAll('-', '.')}</span>
-					</td>
-				</tr>
-			{/each}
-		</tbody>
-	</table>
-</div>
+		{/each}
+	</tbody>
+</table>
 
 <style>
-	.container {
-		margin: 2rem;
-	}
 	table {
 		width: 100%;
 		line-height: 2;
