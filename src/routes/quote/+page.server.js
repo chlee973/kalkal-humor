@@ -6,10 +6,23 @@ export async function load() {
 	try {
 		const postsQuery = {
 			text: `
-			SELECT
-				*,
-				(SELECT COUNT(*) AS comment_count FROM quote.comment AS comment WHERE comment.post_id = post.id)
-			FROM quote.post AS post`
+			SELECT 
+				post.id,
+				post.title,
+				post.nickname,
+        post.created_at,
+        post.updated_at,
+				post.upvote_count,
+				COUNT(comment.id) AS comment_count
+			FROM
+				quote.post
+      LEFT JOIN
+				quote.comment
+			ON
+				post.id = comment.post_id
+			GROUP BY
+				post.id;
+			`
 		};
 		const result = await client.query(postsQuery);
 		return {

@@ -6,7 +6,20 @@ export async function load({ params }) {
 	const client = await pool.connect();
 	try {
 		const query = {
-			text: 'SELECT * FROM quote.post WHERE id = $1',
+			text: `
+			SELECT
+				post.id,
+        post.title,
+        post.nickname,
+        post.created_at,
+        post.updated_at,
+        post.upvote_count,
+        post.content
+			FROM 
+				quote.post 
+			WHERE
+				post.id = $1
+				`,
 			values: [params.postId]
 		};
 		const result = await client.query(query);
