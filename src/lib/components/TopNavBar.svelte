@@ -2,7 +2,7 @@
 	import { slide } from 'svelte/transition';
 	import { onMount } from 'svelte';
 	let isActive = false;
-	let isMobile = false;
+	let isMobile = true;
 	onMount(() => {
 		const mediaQuery = window.matchMedia('(max-width: 768px)');
 		isMobile = mediaQuery.matches;
