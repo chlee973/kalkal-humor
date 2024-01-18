@@ -1,14 +1,8 @@
+<script>
+	import TopNavBar from "$lib/components/TopNavBar.svelte";
+</script>
 <header>
-	<nav>
-		<div class="logo">
-			<h1><a href="/">공대생 깔깔유머</a></h1>
-		</div>
-		<ul>
-			<li><a href="/humor">유머 게시판</a></li>
-			<li><a href="/quote">명언 게시판</a></li>
-			<li><a href="/arcade">오락실</a></li>
-		</ul>
-	</nav>
+	<TopNavBar/>
 </header>
 <div class="container">
 	<slot />
@@ -20,30 +14,6 @@
 </footer>
 
 <style>
-	nav {
-		display: flex;
-		justify-content: space-between;
-		background-color: cornflowerblue;
-	}
-	nav ul {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		list-style-type: none;
-		padding: 1rem 2rem;
-		margin: 0;
-	}
-
-	nav ul li {
-		margin: 0 0.5rem;
-	}
-	.logo {
-		padding: 0 1rem;
-	}
-	a {
-		text-decoration: none;
-		color: white;
-	}
 	footer .copyright {
 		text-align: center;
 	}
