@@ -1,8 +1,9 @@
 <script>
-	import TopNavBar from "$lib/components/TopNavBar.svelte";
+	import TopNavBar from '$lib/components/TopNavBar.svelte';
 </script>
+
 <header>
-	<TopNavBar/>
+	<TopNavBar />
 </header>
 <div class="container">
 	<slot />

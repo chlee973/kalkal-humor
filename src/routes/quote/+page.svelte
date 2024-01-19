@@ -2,7 +2,6 @@
 	export let data;
 </script>
 
-<h3>명언 게시판</h3>
 <table>
 	<thead>
 		<tr>

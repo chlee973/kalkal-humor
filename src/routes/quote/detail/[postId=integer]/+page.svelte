@@ -2,6 +2,6 @@
 	export let data;
 </script>
 
-<h1>{data.post.title}</h1>
+<h2>{data.post.title}</h2>
 <hr />
 <p>{data.post.content}</p>
