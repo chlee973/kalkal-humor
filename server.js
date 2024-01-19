@@ -19,6 +19,13 @@ const SSLPORT = 443;
 
 // let SvelteKit handle everything else, including serving prerendered pages and static assets
 app.use(handler);
+app.use((req, res, next) => {
+	if (req.secure) {
+		next();
+	} else {
+		res.redirect('https://' + req.headers.host + req.url);
+	}
+});
 
 httpServer.listen(PORT, function () {
 	console.log('HTTP Server is running on: http://localhost:%s', PORT);
