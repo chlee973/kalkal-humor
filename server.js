@@ -6,10 +6,9 @@ import http from 'http';
 import https from 'https';
 
 dotenv.config();
-const privateKey = fs.readFileSync(`/etc/letsencrypt/live/${process.env.HOST_USER}/privkey.pem`);
-const certificate = fs.readFileSync(`/etc/letsencrypt/live/${process.env.HOST_USER}/cert.pem`);
-const ca = fs.readFileSync(`/etc/letsencrypt/live/${process.env.HOST_USER}/chain.pem`);
-const credentials = { key: privateKey, cert: certificate, ca: ca };
+const privateKey = fs.readFileSync(`./ssl/privkey.pem`);
+const certificate = fs.readFileSync(`./ssl/fullchain.pem`);
+const credentials = { key: privateKey, cert: certificate };
 
 const app = express();
 const httpServer = http.createServer(app);
