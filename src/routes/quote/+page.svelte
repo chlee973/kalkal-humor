@@ -60,6 +60,6 @@
 	}
 
 	a span.comment_count {
-		color: cornflowerblue;
+		color: #244f26;
 	}
 </style>

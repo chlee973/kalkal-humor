@@ -49,7 +49,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background-color: cornflowerblue;
+		background-color: #244f26;
 		padding: 8px 12px;
 	}
 	.navbar__logo {
