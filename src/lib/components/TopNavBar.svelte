@@ -54,6 +54,8 @@
 	}
 	.navbar__logo {
 		font-size: 1.5rem;
+		display: flex;
+		align-items: center;
 		color: white;
 	}
 	.navbar__menu {
@@ -67,6 +69,7 @@
 	.navbar__toggleBtn {
 		display: none;
 		position: absolute;
+		top: 12px;
 		right: 12px;
 		font-size: 1.5rem;
 		background: none;

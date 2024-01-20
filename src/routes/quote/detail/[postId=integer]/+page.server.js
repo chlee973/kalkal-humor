@@ -11,6 +11,7 @@ export async function load({ params }) {
 				post.id,
         post.title,
         post.nickname,
+				post.speaker,
         post.created_at,
         post.updated_at,
         post.upvote_count,

@@ -21,7 +21,9 @@ export async function load() {
 			ON
 				post.id = comment.post_id
 			GROUP BY
-				post.id;
+				post.id
+			ORDER BY
+				post.created_at DESC;
 			`
 		};
 		const result = await client.query(postsQuery);

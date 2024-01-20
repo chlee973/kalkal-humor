@@ -2,6 +2,9 @@
 	export let data;
 </script>
 
+<div class="write-btn-container">
+	<a class="write-btn" href="/quote/create"><i class="fa-solid fa-pencil"></i> 글쓰기</a>
+</div>
 <table>
 	<thead>
 		<tr>
@@ -39,6 +42,19 @@
 </table>
 
 <style>
+	.write-btn-container {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.write-btn-container .write-btn {
+		font-size: 0.8rem;
+		margin-bottom: 8px;
+		padding: 8px 12px;
+		background-color: #244f26;
+		border-radius: 8px;
+		color: white;
+		cursor: pointer;
+	}
 	table {
 		width: 100%;
 		line-height: 2;
