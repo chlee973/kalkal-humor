@@ -4,6 +4,7 @@ node_modules
 /build
 /.svelte-kit
 /package
+/static/uploads/images
 .env
 .env.*
 !.env.example
