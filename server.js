@@ -25,6 +25,7 @@ app.use((req, res, next) => {
 		res.redirect('https://' + req.headers.host + req.url);
 	}
 });
+app.use(express.static('static'));
 app.use(handler);
 
 httpServer.listen(PORT, function () {
