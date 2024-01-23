@@ -17,7 +17,7 @@
 
 <style>
 	img {
-		width: 50%;
-		min-width: 400px;
+		width: 100%;
+		max-width: 500px;
 	}
 </style>
