@@ -1,4 +1,9 @@
 <script>
+	import dayjs from 'dayjs';
+	import relativeTime from 'dayjs/plugin/relativeTime';
+	import locale_ko from 'dayjs/locale/ko';
+	dayjs.extend(relativeTime);
+	dayjs.locale('ko');
 	export let data;
 </script>
 
@@ -18,14 +23,12 @@
 		{#each data.posts as post}
 			<tr>
 				<td class="title">
-					<span>
-						<a href="/humor/detail/{post.id}">
-							<span>
-								{post.title}
-							</span>
-							<span class="comment_count"> [{post.comment_count}] </span>
-						</a>
-					</span>
+					<a href="/humor/detail/{post.id}">
+						<span>
+							{post.title}
+						</span>
+						<span class="comment_count"> [{post.comment_count}] </span>
+					</a>
 				</td>
 				<td class="nickname">
 					<span>{post.nickname}</span>
@@ -34,7 +37,7 @@
 					<span>{post.upvote_count}</span>
 				</td>
 				<td class="created_at">
-					<span>{post.created_at.toISOString().split('T')[0].replaceAll('-', '.')}</span>
+					<span>{dayjs(post.created_at).fromNow()}</span>
 				</td>
 			</tr>
 		{/each}
