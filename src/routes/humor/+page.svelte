@@ -22,21 +22,21 @@
 	<tbody>
 		{#each data.posts as post}
 			<tr>
-				<td class="title">
+				<td class="title-cell">
 					<a href="/humor/detail/{post.id}">
-						<span>
+						<span class="title">
 							{post.title}
 						</span>
-						<span class="comment_count"> [{post.comment_count}] </span>
+						<span class="comment_count">[{post.comment_count}]</span>
 					</a>
 				</td>
-				<td class="nickname">
+				<td class="nickname-cell">
 					<span>{post.nickname}</span>
 				</td>
-				<td class="upvote_count">
+				<td class="upvote_count-cell">
 					<span>{post.upvote_count}</span>
 				</td>
-				<td class="created_at">
+				<td class="created_at-cell">
 					<span>{dayjs(post.created_at).fromNow()}</span>
 				</td>
 			</tr>
@@ -60,7 +60,8 @@
 	}
 	table {
 		width: 100%;
-		line-height: 2;
+		table-layout: fixed;
+		line-height: 2.5;
 		border-collapse: collapse;
 	}
 	tr {
@@ -68,17 +69,44 @@
 		border-top: 1px solid #ededed;
 		border-bottom: 1px solid #ededed;
 	}
-	td.nickname,
-	td.upvote_count,
-	td.created_at {
+	td.nickname-cell,
+	td.upvote_count-cell,
+	td.created_at-cell {
 		text-align: center;
 	}
 	a {
 		color: black;
 		text-decoration: none;
 	}
-
-	a span.comment_count {
+	.title-cell a {
+		display: flex;
+		align-items: baseline;
+	}
+	.title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.comment_count {
 		color: #244f26;
+		margin-left: 8px;
+	}
+	th:nth-child(n + 2),
+	td:nth-child(n + 2) {
+		width: 75px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	th:first-child,
+	td:first-child {
+		width: auto;
+	}
+
+	@media screen and (max-width: 768px) {
+		tr > *:nth-child(n + 2),
+		th {
+			display: none;
+		}
 	}
 </style>
