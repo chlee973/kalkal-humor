@@ -11,6 +11,7 @@ export async function load() {
 				post.id,
 				post.title,
 				post.nickname,
+				post.image,
         post.created_at,
         post.updated_at,
 				post.upvote_count,

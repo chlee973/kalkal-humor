@@ -10,7 +10,7 @@
 <div class="write-btn-container">
 	<a class="write-btn" href="/humor/create"><i class="fa-solid fa-pencil"></i> 글쓰기</a>
 </div>
-<table>
+<table class="desktop-table">
 	<thead>
 		<tr>
 			<th>제목</th>
@@ -43,6 +43,30 @@
 		{/each}
 	</tbody>
 </table>
+<ul class="mobile-list">
+	{#each data.posts as post}
+		<li>
+			<a href="/humor/detail/{post.id}">
+				<div class="list-header">
+					<div class="title">{post.title}</div>
+					{#if post.image}
+						<div><i class="fa-regular fa-image"></i></div>
+					{/if}
+					<div class="comment_count">[{post.comment_count}]</div>
+				</div>
+				<div class="list-meta">
+					<div class="list-meta-left">
+						<span><i class="fa-regular fa-thumbs-up"></i> {post.upvote_count}</span>
+						<span><i class="fa-regular fa-clock"></i> {dayjs(post.created_at).fromNow()}</span>
+					</div>
+					<div class="list-meta-right">
+						<span>{post.nickname}</span>
+					</div>
+				</div>
+			</a>
+		</li>
+	{/each}
+</ul>
 
 <style>
 	.write-btn-container {
@@ -82,12 +106,12 @@
 		display: flex;
 		align-items: baseline;
 	}
-	.title {
+	.title-cell .title {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
-	.comment_count {
+	.title-cell .comment_count {
 		color: #244f26;
 		margin-left: 8px;
 	}
@@ -103,10 +127,56 @@
 		width: auto;
 	}
 
+	ul.mobile-list {
+		display: none;
+		list-style-type: none;
+		padding: 0;
+	}
+	ul.mobile-list li:first-child {
+		border-top: 1px solid #ededed;
+	}
+	ul.mobile-list li {
+		border-bottom: 1px solid #ededed;
+	}
+	ul.mobile-list li a {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding: 8px 0;
+	}
+	ul.mobile-list .list-header {
+		display: flex;
+		align-items: baseline;
+		gap: 8px;
+	}
+	ul.mobile-list .list-header .title {
+		max-width: 80%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	ul.mobile-list .list-header .comment_count {
+		color: #244f26;
+	}
+	ul.mobile-list .list-meta {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	ul.mobile-list .list-meta .list-meta-left {
+		display: flex;
+		gap: 12px;
+		font-size: 0.9rem;
+	}
+	ul.mobile-list .list-meta .list-meta-right {
+		font-size: 0.9rem;
+	}
 	@media screen and (max-width: 768px) {
-		tr > *:nth-child(n + 2),
-		th {
+		table.desktop-table {
 			display: none;
+		}
+		ul.mobile-list {
+			display: block;
 		}
 	}
 </style>
