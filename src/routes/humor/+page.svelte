@@ -27,6 +27,9 @@
 						<span class="title">
 							{post.title}
 						</span>
+						{#if post.image}
+							<span><i class="fa-regular fa-image"></i></span>
+						{/if}
 						<span class="comment_count">[{post.comment_count}]</span>
 					</a>
 				</td>
@@ -93,11 +96,6 @@
 		border-top: 1px solid #ededed;
 		border-bottom: 1px solid #ededed;
 	}
-	td.nickname-cell,
-	td.upvote_count-cell,
-	td.created_at-cell {
-		text-align: center;
-	}
 	a {
 		color: black;
 		text-decoration: none;
@@ -105,6 +103,7 @@
 	.title-cell a {
 		display: flex;
 		align-items: baseline;
+		gap: 8px;
 	}
 	.title-cell .title {
 		white-space: nowrap;
@@ -113,11 +112,11 @@
 	}
 	.title-cell .comment_count {
 		color: #244f26;
-		margin-left: 8px;
 	}
 	th:nth-child(n + 2),
 	td:nth-child(n + 2) {
-		width: 75px;
+		text-align: center;
+		width: 120px;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
