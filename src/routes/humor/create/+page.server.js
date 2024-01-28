@@ -1,12 +1,12 @@
 import pool from '$lib/db';
 import { redirect } from '@sveltejs/kit';
 import bcrypt from 'bcrypt';
-import { writeFileSync } from 'fs';
+import { randomUUID } from 'crypto';
+import { writeFileSync, existsSync, mkdirSync } from 'fs';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
 	default: async ({ request }) => {
-		// TODO log the user in
 		const data = await request.formData();
 		const title = data.get('title');
 		const nickname = data.get('nickname');
@@ -17,12 +17,15 @@ export const actions = {
 		let imagePath;
 		const client = await pool.connect();
 		if (image instanceof File && image?.name) {
-			const fileParts = image.name.split('.');
-			const extension = fileParts.pop();
-			const timestamp = new Date().getTime();
-			const newFileName = `${fileParts.join('.')}_${timestamp}.${extension}`;
-			writeFileSync(`static/uploads/images/${newFileName}`, Buffer.from(await image.arrayBuffer()));
-			imagePath = `/uploads/images/${newFileName}`;
+			const yyyymmdd = new Date().toISOString().split('T')[0]; // yyyy-mm-dd
+			const uuid = randomUUID();
+			const newFileName = `${uuid}_${image.name}`;
+			const dir = `static/uploads/images/${yyyymmdd}`;
+			if (!existsSync(dir)) {
+				mkdirSync(dir, { recursive: true });
+			}
+			writeFileSync(`${dir}/${newFileName}`, Buffer.from(await image.arrayBuffer()));
+			imagePath = `/uploads/images/${yyyymmdd}/${newFileName}`;
 		}
 		const saltRounds = 10;
 		let hash = password;
