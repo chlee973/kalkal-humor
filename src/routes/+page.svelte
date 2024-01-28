@@ -1,5 +1,6 @@
 <script>
 	import { browser } from '$app/environment';
+	import { baseUrl } from '$lib/config';
 	import { onDestroy, onMount } from 'svelte';
 	let clock = '00:00:00';
 	let minutes = new Date().getMinutes();
@@ -20,6 +21,11 @@
 	}
 	onMount(() => {
 		digitalClock();
+		fetch(`${baseUrl}/api/numbers?minutes=${minutes}`)
+			.then((response) => response.json())
+			.then((data) => {
+				facts = data.text;
+			});
 	});
 	onDestroy(() => {
 		if (timer) {
@@ -28,7 +34,7 @@
 	});
 	$: {
 		if (browser) {
-			fetch(`http://numbersapi.com/${minutes}/math?json`)
+			fetch(`${baseUrl}/api/numbers?minutes=${minutes}`)
 				.then((response) => response.json())
 				.then((data) => {
 					facts = data.text;
