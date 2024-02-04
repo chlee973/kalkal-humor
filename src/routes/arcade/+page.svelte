@@ -6,14 +6,14 @@
 	<GameCard
 		title="별 피하기"
 		content="좌우로 움직여 별을 피해보세요!"
-		imgSrc="/arcade/thumbnails/screenshot_dodge_star.png"
+		imgSrc="/arcade_thumbnails/screenshot_dodge_star.png"
 		imgAlt="별피하기 스크린샷"
 		href="/arcade/dodge_star"
 	/>
 	<GameCard
 		title="재용점프"
 		content="역경을 딛고 삼성의 주가를 올려보세요!"
-		imgSrc="/arcade/thumbnails/screenshot_jaeyong_jump.png"
+		imgSrc="/arcade_thumbnails/screenshot_jaeyong_jump.png"
 		imgAlt="재용점프 스크린샷"
 		href="/arcade/jaeyong_jump"
 	/>
