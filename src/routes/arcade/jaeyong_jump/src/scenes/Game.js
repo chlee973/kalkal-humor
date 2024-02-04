@@ -233,12 +233,14 @@ export default class Game extends Phaser.Scene {
 			this.player.setVelocityY(-1225);
 		}
 		if (platform.texture.key === 'laundry' && isOnPlatform) {
-			// @ts-ignore
 			const tween = this.tweens.add({
 				targets: this.cameras.main,
 				rotation: 2 * Math.PI,
 				duration: 500,
-				ease: 'Linear'
+				ease: 'Linear',
+				onComplete: () => {
+					this.cameras.main.rotation = 0;
+				}
 			});
 		}
 	}
