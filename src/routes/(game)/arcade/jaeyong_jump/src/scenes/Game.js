@@ -30,32 +30,12 @@ export default class Game extends Phaser.Scene {
 	// @ts-ignore
 	scoreText;
 	constructor() {
-		super({
-			key: 'Game'
-		});
+		super('Game');
 	}
 	preload() {
-		this.load.image('character', 'assets/character.png');
-		this.load.image('background', 'assets/Clouds.png');
-		this.load.image('rocket', 'assets/rocket.png');
-
-		this.load.image('buds', 'assets/buds.png');
-		//platforms
-		this.load.image('laundry', 'assets/laundry.png');
-		this.load.image('refri', 'assets/refri.png');
-		this.load.image('s1', 'assets/s1.png');
-		this.load.image('s2', 'assets/s2.png');
-		this.load.image('s21', 'assets/s21.png');
-		this.load.image('s22', 'assets/s22.png');
-		this.load.image('note7', 'assets/note7.png');
 		this.cursors = this.input.keyboard?.createCursorKeys();
 	}
-	/**
-	 *
-	 * @param {object | undefined} data
-	 */
-	// @ts-ignore
-	create(data) {
+	create() {
 		this.score = 0;
 		const width = this.scale.width;
 		const height = this.scale.height;
@@ -118,8 +98,9 @@ export default class Game extends Phaser.Scene {
 		// @ts-ignore
 		this.physics.add.overlap(this.player, this.note7Group, this.handCollectNote7, undefined, this);
 
-		//클릭(터치) 이벤트 처리
 		window.addEventListener('deviceorientation', this.handleOrientation.bind(this));
+
+		// 터치 이벤트
 		this.input.on('pointerdown', (/** @type {Phaser.Input.Pointer} */ _pointer) => {
 			this.pointer = _pointer;
 			if (this.pointer.x < this.scale.width / 2) {
@@ -128,7 +109,6 @@ export default class Game extends Phaser.Scene {
 				this.player.setFlipX(false);
 			}
 		});
-		// 포인터가 화면에서 떨어질 때의 이벤트를 처리합니다.
 		this.input.on('pointerup', () => {
 			this.pointer = null;
 			this.player.setVelocityX(0);
@@ -139,7 +119,6 @@ export default class Game extends Phaser.Scene {
 	 * @param {number} time
 	 * @param {number} delta
 	 */
-	// @ts-ignore
 	update(time, delta) {
 		if (this.player.body.velocity.y > 2000) {
 			this.scene.start('GameOver', { score: this.score });
@@ -239,7 +218,7 @@ export default class Game extends Phaser.Scene {
 				duration: 500,
 				ease: 'Linear',
 				onComplete: () => {
-					this.cameras.main.rotation = 0;
+					this.cameras.main.setRotation(0);
 				}
 			});
 		}
@@ -267,7 +246,6 @@ export default class Game extends Phaser.Scene {
 	 * @param {Phaser.Types.Physics.Arcade.ImageWithDynamicBody} player
 	 * @param {Phaser.Physics.Arcade.Image} note7
 	 */
-	// @ts-ignore
 	handCollectNote7(player, note7) {
 		note7.destroy();
 		this.scene.start('GameOver', { score: this.score });

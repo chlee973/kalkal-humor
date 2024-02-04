@@ -1,13 +1,12 @@
 import Phaser from 'phaser';
+/**
+ * @typedef {typeof DeviceOrientationEvent & { requestPermission?: () => Promise<string> }} ExtendedDeviceOrientationEvent
+ */
 
 export default class MainMenu extends Phaser.Scene {
 	constructor() {
 		super('MainMenu');
 		this.startButton = /** @type{HTMLButtonElement}*/ (document.getElementById('start-button'));
-	}
-
-	preload() {
-		this.load.image('background', 'assets/Clouds.png');
 	}
 
 	create() {
@@ -25,8 +24,11 @@ export default class MainMenu extends Phaser.Scene {
 		this.startButton.addEventListener('click', this.requestDeviceOrientationPermission.bind(this));
 	}
 	requestDeviceOrientationPermission() {
-		if (typeof DeviceOrientationEvent.requestPermission === 'function') {
-			DeviceOrientationEvent.requestPermission()
+		/** @type {ExtendedDeviceOrientationEvent} */
+		const DOE = DeviceOrientationEvent;
+
+		if (typeof DOE.requestPermission === 'function') {
+			DOE.requestPermission()
 				.then((permissionState) => {
 					const deviceOrientationGranted = permissionState === 'granted';
 					this.scene.start('Game', { deviceOrientationGranted });

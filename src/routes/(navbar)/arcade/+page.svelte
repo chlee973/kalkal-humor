@@ -2,6 +2,7 @@
 	import GameCard from './GameCard.svelte';
 </script>
 
+<h3 class="page-header"><a href="/arcade">오락실</a></h3>
 <div class="grid-container">
 	<GameCard
 		title="별 피하기"
@@ -25,5 +26,9 @@
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 		grid-gap: 20px;
 		justify-items: center;
+	}
+	a {
+		text-decoration: none;
+		color: #244f26;
 	}
 </style>

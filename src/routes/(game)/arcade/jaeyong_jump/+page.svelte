@@ -2,16 +2,17 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { baseUrl } from '$lib/config';
 	import { browser } from '$app/environment';
-
 	/** @type {Phaser.Game} */
 	let gameInstance;
 
 	let Phaser;
+	let Preloader;
 	let MainMenu;
 	let Game;
 	let GameOver;
 	onMount(async () => {
 		Phaser = (await import('phaser')).default;
+		Preloader = (await import('./src/scenes/Preloader')).default;
 		MainMenu = (await import('./src/scenes/MainMenu')).default;
 		Game = (await import('./src/scenes/Game')).default;
 		GameOver = (await import('./src/scenes/GameOver')).default;
@@ -36,7 +37,7 @@
 					gravity: { y: 1500 }
 				}
 			},
-			scene: [MainMenu, Game, GameOver]
+			scene: [Preloader, MainMenu, Game, GameOver]
 		};
 		gameInstance = new Phaser.Game(config);
 	});
@@ -54,6 +55,8 @@
 
 <style>
 	#game-container {
+		width: 100%;
+		height: 100%;
 		position: relative;
 	}
 
@@ -69,7 +72,7 @@
 	}
 
 	#phaser-game {
-		position: relative;
-		overflow: hidden;
+		width: 100%;
+		height: 100%;
 	}
 </style>
