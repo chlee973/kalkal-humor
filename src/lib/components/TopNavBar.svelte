@@ -1,40 +1,27 @@
 <script>
 	import { slide } from 'svelte/transition';
-	import { onMount } from 'svelte';
+
 	let isActive = false;
-	let isMobile = true;
-	onMount(() => {
-		const mediaQuery = window.matchMedia('(max-width: 768px)');
-		isMobile = mediaQuery.matches;
 
-		const handleMediaChange = () => {
-			isMobile = mediaQuery.matches;
-		};
-
-		mediaQuery.addEventListener('change', handleMediaChange);
-		return () => {
-			mediaQuery.removeEventListener('change', handleMediaChange);
-		};
-	});
-	function toggleNavBar() {
+	const toggleNavBar = () => {
 		isActive = !isActive;
-	}
-	function closeNavBar() {
+	};
+	const closeNavBar = () => {
 		isActive = false;
-	}
+	};
 </script>
 
 <nav class="navbar">
 	<div class="navbar__logo">
 		<a href="/">공대생 깔깔유머</a>
 	</div>
-	{#if !isMobile || isActive}
-		<ul class="navbar__menu" in:slide={{ duration: 300 }} out:slide={{ duration: 300 }}>
+	{#key isActive}
+		<ul class="navbar__menu" class:active={isActive} transition:slide={{ duration: 300 }}>
 			<li><a href="/humor" on:click={closeNavBar}>유머 게시판</a></li>
 			<li><a href="/quote" on:click={closeNavBar}>명언 게시판</a></li>
 			<li><a href="/arcade" on:click={closeNavBar}>오락실</a></li>
 		</ul>
-	{/if}
+	{/key}
 	<button class="navbar__toggleBtn" aria-label="toggle menu" on:click={toggleNavBar}
 		><i class="fas fa-hamburger"></i></button
 	>
@@ -88,6 +75,10 @@
 			flex-direction: column;
 			align-items: center;
 			width: 100%;
+			display: none;
+		}
+		.navbar__menu.active {
+			display: flex;
 		}
 		.navbar__menu li {
 			width: 100%;
