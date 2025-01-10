@@ -1,0 +1,124 @@
+2025-01-10T14:10:45.918Z | direct | GET /arcade/jaeyong_jump | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:45.977Z | direct | GET /_app/immutable/entry/start.-BiKTSLo.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:45.977Z | direct | GET /_app/immutable/chunks/entry.vJOPEv_9.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.006Z | direct | GET /_app/immutable/entry/app.mRLwFkA-.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.080Z | direct | GET /_app/immutable/nodes/7.IzY_YlKl.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.081Z | direct | GET /global.css | 304 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.084Z | direct | GET /_app/immutable/chunks/config.iF1H_h3-.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.235Z | direct | GET /_app/immutable/nodes/1._mS48qp1.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.647Z | direct | GET /arcade_assets/jaeyong_jump/assets/character.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.653Z | direct | GET /arcade_assets/jaeyong_jump/assets/Clouds.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.653Z | direct | GET /arcade_assets/jaeyong_jump/assets/rocket.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.654Z | direct | GET /arcade_assets/jaeyong_jump/assets/buds.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.654Z | direct | GET /arcade_assets/jaeyong_jump/assets/laundry.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.657Z | direct | GET /arcade_assets/jaeyong_jump/assets/refri.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.681Z | direct | GET /arcade_assets/jaeyong_jump/assets/s1.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.751Z | direct | GET /arcade_assets/jaeyong_jump/assets/s2.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.760Z | direct | GET /arcade_assets/jaeyong_jump/assets/s21.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.787Z | direct | GET /arcade_assets/jaeyong_jump/assets/s22.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:46.797Z | direct | GET /arcade_assets/jaeyong_jump/assets/note7.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:51.827Z | direct | GET / | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:51.877Z | direct | GET /_app/immutable/nodes/8.Wx0s70oc.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:52.460Z | direct | GET /api/numbers | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:52.460Z | direct | GET /api/numbers | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:53.164Z | direct | GET /_app/immutable/nodes/9.T9hVswv_.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:55.008Z | direct | GET /arcade_thumbnails/screenshot_dodge_star.png | 304 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:55.012Z | direct | GET /arcade_thumbnails/screenshot_jaeyong_jump.png | 304 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:10:55.804Z | direct | GET /_app/immutable/nodes/6.3w_d9hhc.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+2025-01-10T14:11:00.454Z | direct | GET /quote/__data.json | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.667Z | direct | GET /quote/__data.json | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.726Z | direct | GET /quote/__data.json | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.791Z | direct | GET /quote/__data.json | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.853Z | direct | GET /quote/__data.json | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.860Z | direct | GET /_app/version.json | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.877Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.909Z | direct | GET /_app/immutable/entry/start.-BiKTSLo.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.910Z | direct | GET /_app/immutable/chunks/entry.vJOPEv_9.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.916Z | direct | GET /global.css | 304 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.918Z | direct | GET /_app/immutable/entry/app.mRLwFkA-.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:00.918Z | direct | GET /_app/immutable/nodes/1._mS48qp1.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:02.444Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:03.588Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:04.211Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:04.576Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:04.745Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:04.892Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:05.048Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:05.203Z | direct | GET /quote | 500 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:09.982Z | direct | GET /arcade_thumbnails/screenshot_dodge_star.png | 304 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:09.982Z | direct | GET /arcade_thumbnails/screenshot_jaeyong_jump.png | 304 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:10.687Z | direct | GET /_app/immutable/nodes/7.IzY_YlKl.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:10.687Z | direct | GET /_app/immutable/chunks/config.iF1H_h3-.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.032Z | direct | GET /arcade_assets/jaeyong_jump/assets/character.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.032Z | direct | GET /arcade_assets/jaeyong_jump/assets/Clouds.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.033Z | direct | GET /arcade_assets/jaeyong_jump/assets/rocket.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.033Z | direct | GET /arcade_assets/jaeyong_jump/assets/buds.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.033Z | direct | GET /arcade_assets/jaeyong_jump/assets/laundry.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.038Z | direct | GET /arcade_assets/jaeyong_jump/assets/refri.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.048Z | direct | GET /arcade_assets/jaeyong_jump/assets/s1.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.064Z | direct | GET /arcade_assets/jaeyong_jump/assets/s2.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.078Z | direct | GET /arcade_assets/jaeyong_jump/assets/s21.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.085Z | direct | GET /arcade_assets/jaeyong_jump/assets/s22.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:11.092Z | direct | GET /arcade_assets/jaeyong_jump/assets/note7.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:13.574Z | direct | GET /arcade/jaeyong_jump | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.092Z | direct | GET /_app/immutable/nodes/6.3w_d9hhc.js | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.722Z | direct | GET /arcade_assets/dodge_star/assets/bgm.mp3 | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.731Z | direct | GET /arcade_assets/dodge_star/assets/blue_grass.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.731Z | direct | GET /arcade_assets/dodge_star/assets/grassLeft.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.732Z | direct | GET /arcade_assets/dodge_star/assets/grassMid.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.734Z | direct | GET /arcade_assets/dodge_star/assets/grassRight.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.735Z | direct | GET /arcade_assets/dodge_star/assets/star.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:11:39.744Z | direct | GET /arcade_assets/dodge_star/assets/spritesheet_players.png | 200 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:13:18.701Z | direct | GET / | 301 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:18.907Z | direct | GET / | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:18.972Z | direct | GET /_app/immutable/assets/3.a1ZdgpqC.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.023Z | direct | GET /_app/immutable/entry/app.mRLwFkA-.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.080Z | direct | GET /_app/immutable/chunks/preload-helper.0HuHagjb.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.080Z | direct | GET /_app/immutable/chunks/scheduler.A9-JF3B6.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.081Z | direct | GET /_app/immutable/assets/TopNavBar.OtqbmC2b.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.083Z | direct | GET /_app/immutable/chunks/entry.vJOPEv_9.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.084Z | direct | GET /_app/immutable/entry/start.-BiKTSLo.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.084Z | direct | GET /_app/immutable/assets/8.ACamwq5r.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.133Z | direct | GET /_app/immutable/nodes/0.4rJ_YhoR.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.134Z | direct | GET /_app/immutable/nodes/3.aPUWUty7.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.134Z | direct | GET /_app/immutable/chunks/index.-g_7zAf5.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.135Z | direct | GET /_app/immutable/chunks/TopNavBar.aBmXi7hy.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.135Z | direct | GET /_app/immutable/nodes/8.Wx0s70oc.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.173Z | direct | GET /_app/immutable/chunks/config.iF1H_h3-.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:19.179Z | direct | GET /global.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:20.047Z | direct | GET /_app/immutable/nodes/1._mS48qp1.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:20.047Z | direct | GET /_app/immutable/assets/1.glB7ctAe.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:20.456Z | direct | GET /api/numbers | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:20.457Z | direct | GET /api/numbers | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:26.995Z | direct | GET /_app/immutable/assets/9.x193i5gJ.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:26.995Z | direct | GET /_app/immutable/nodes/9.T9hVswv_.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:27.063Z | direct | GET /arcade_thumbnails/screenshot_jaeyong_jump.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:27.064Z | direct | GET /arcade_thumbnails/screenshot_dodge_star.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:27.835Z | direct | GET /_app/immutable/assets/6.CWjMUvKc.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:27.835Z | direct | GET /_app/immutable/nodes/6.3w_d9hhc.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:27.945Z | direct | GET /_app/immutable/nodes/2.W0d2d39z.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:28.475Z | direct | GET /_app/immutable/assets/7.aqZ3pWDw.css | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:28.475Z | direct | GET /_app/immutable/nodes/7.IzY_YlKl.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:28.584Z | direct | GET /_app/immutable/chunks/_commonjsHelpers.5-cIlDoe.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:28.585Z | direct | GET /_app/immutable/chunks/phaser.8mmy1haT.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:29.054Z | direct | GET /_app/immutable/chunks/Preloader.fSwGCkQc.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:29.106Z | direct | GET /_app/immutable/chunks/MainMenu.emGXpqyp.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:29.154Z | direct | GET /_app/immutable/chunks/Game.NI00G05M.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:29.205Z | direct | GET /_app/immutable/chunks/GameOver.O6UXN2kn.js | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:31.985Z | direct | GET /arcade_assets/jaeyong_jump/assets/character.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:31.985Z | direct | GET /arcade_assets/jaeyong_jump/assets/refri.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:31.986Z | direct | GET /arcade_assets/jaeyong_jump/assets/laundry.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:31.991Z | direct | GET /arcade_assets/jaeyong_jump/assets/rocket.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:31.991Z | direct | GET /arcade_assets/jaeyong_jump/assets/Clouds.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:31.991Z | direct | GET /arcade_assets/jaeyong_jump/assets/buds.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:32.046Z | direct | GET /arcade_assets/jaeyong_jump/assets/s1.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:32.158Z | direct | GET /arcade_assets/jaeyong_jump/assets/s2.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:32.244Z | direct | GET /arcade_assets/jaeyong_jump/assets/s21.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:32.244Z | direct | GET /arcade_assets/jaeyong_jump/assets/s22.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:32.257Z | direct | GET /arcade_assets/jaeyong_jump/assets/note7.png | 200 | Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/134.0  Mobile/15E148 Safari/605.1.15
+2025-01-10T14:13:54.913Z | direct | GET /.env | 404 | Mozilla/5.0 Keydrop
+ome/125.0.0.0 Safari/537.36
+2025-01-10T14:03:49.794Z | direct | GET /undefined/api/numbers | 404 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:04:01.909Z | direct | GET /undefined/api/numbers | 404 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:05:02.401Z | direct | GET /undefined/api/numbers | 404 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+2025-01-10T14:06:02.326Z | direct | GET /undefined/api/numbers | 404 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
